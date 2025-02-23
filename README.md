@@ -5,8 +5,10 @@ This project is an advanced-SQL-based solution designed to import and process fl
 ->Flat File Import: Uses xp_cmdshell to list flat files from a specified directory and loads them into a temporary table.
 
 ->Dynamic Table Creation: For each flat file, a corresponding table is created dynamically with column names inferred from the data in the first record of the file.
-Data Cleaning: The imported data is processed to remove non-alphanumeric and special characters that may interfere with further processing.
-Efficient Data Insertion: The program processes the records and inserts them into the newly created tables, matching the appropriate structure and ensuring integrity.
+
+->Data Cleaning: The imported data is processed to remove non-alphanumeric and special characters that may interfere with further processing.
+
+->Efficient Data Insertion: The program processes the records and inserts them into the newly created tables, matching the appropriate structure and ensuring integrity.
 
 Steps taken for implementation:
 
